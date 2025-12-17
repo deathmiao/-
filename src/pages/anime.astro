@@ -11,11 +11,6 @@ if (!siteConfig.featurePages.anime) {
 	return Astro.redirect("/404/");
 }
 
-// 检查番剧页面是否启用
-if (!siteConfig.featurePages.anime) {
-	return Astro.redirect("/404/");
-}
-
 // Bangumi API配置
 const BANGUMI_USER_ID = siteConfig.bangumi?.userId || "1170454"; // 用户ID
 const BANGUMI_API_BASE = "https://api.bgm.tv";
