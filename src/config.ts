@@ -358,7 +358,6 @@ export const musicPlayerConfig: MusicPlayerConfig = {
     id: "5020458143", // 你的网易云歌单ID
     server: "netease", // 音乐源为网易云
     type: "playlist", // 类型是歌单
-};
 	enable: true, // 启用音乐播放器功能
 };
 
